@@ -1567,9 +1567,10 @@ footer .privacy .studio p {
   }
 }
 @media (max-width: 458px) {
-  .trend_box {
-    display: flex !important;
-    align-items: center;
+  .trend_cards {
     margin: 0 auto;
+    display: flex;
+    -moz-column-gap: 100px !important;
+         column-gap: 100px !important;
   }
 }/*# sourceMappingURL=style.css.map */
